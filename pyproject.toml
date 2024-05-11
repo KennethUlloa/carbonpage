@@ -1,0 +1,18 @@
+[project]
+name = "carbonpage"
+version = "0.0.1"
+description = "Templating tool for development"
+requires-python = ">=3.10"
+authors = [
+    {name = "Kenneth Ulloa", email="ulloakenth@gmail.com"}
+]
+keywords = ["templates", "development tools", "tools"]
+readme = "README.md"
+
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+cbpg = "carbonpage.cli:main"
